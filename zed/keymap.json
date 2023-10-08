@@ -7,7 +7,8 @@
             "alt-p": "file_finder::Toggle",
             "shift-alt-p": "command_palette::Toggle",
             "alt-s": "workspace::Save",
-            "shift-alt-s": "workspace::SaveAs"
+            "shift-alt-s": "workspace::SaveAs",
+            "alt-0": "workspace::CloseAllItemsAndPanes"
         }
     },
     {
@@ -18,19 +19,6 @@
             "alt-c": "editor::Copy",
             "alt-d": "editor::Delete",
             "shift-alt-d": "editor::DeleteToNextWordEnd",
-            "alt-f": [
-                "buffer_search::Deploy",
-                {
-                    "focus": true
-                }
-            ],
-            "shift-alt-f": [
-                "buffer_search::Deploy",
-                {
-                    "focus": true,
-                    "regex": true
-                }
-            ],
             "alt-h": "editor::MoveLeft",
             "shift-alt-h": "editor::SelectLeft",
             "alt-j": "editor::MoveDown",
@@ -58,6 +46,24 @@
             "alt-.": "editor::HalfPageDown",
             "alt->": "editor::MoveToEnd",
             "alt-;": "editor::ToggleComments"
+        }
+    },
+    {
+        "context": "Editor && mode == full",
+        "bindings": {
+            "alt-f": [
+                "buffer_search::Deploy",
+                {
+                    "focus": true
+                }
+            ],
+            "shift-alt-f": [
+                "buffer_search::Deploy",
+                {
+                    "focus": true,
+                    "regex": true
+                }
+            ]
         }
     },
     {
