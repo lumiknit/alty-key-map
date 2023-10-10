@@ -253,5 +253,9 @@
 	{
 		"key": "shift+alt+f",
 		"command": "workbench.action.findInFiles"
+	},
+	{
+		"key": "shift+cmd+\\",
+		"command": "workbench.action.toggleZenMode"
 	}
 ]
