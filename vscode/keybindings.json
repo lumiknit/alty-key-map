@@ -255,7 +255,7 @@
 		"command": "workbench.action.findInFiles"
 	},
 	{
-		"key": "shift+cmd+\\",
+		"key": "shift+alt+\\",
 		"command": "workbench.action.toggleZenMode"
 	}
 ]
