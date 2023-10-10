@@ -44,5 +44,5 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A->`: Move to the end of the file
 - `A-'`: Toggle bottom pane (commonly, integrated terminal)
 - `A-\\`: Toggle left pane (commonly, file tree)
-- `A-|`: Toggle right pane (commonly, well..?)
+- `A-|`: Zen mode / Toggle right pane
 - `A-0`: Close all tabs and panes
