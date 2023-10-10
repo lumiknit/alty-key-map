@@ -8,7 +8,8 @@
             "shift-alt-p": "command_palette::Toggle",
             "alt-s": "workspace::Save",
             "shift-alt-s": "workspace::SaveAs",
-            "alt-0": "workspace::CloseAllItemsAndPanes"
+            "alt-0": "workspace::CloseAllItemsAndPanes",
+            "shift-alt-f": "workspace::NewSearch"
         }
     },
     {
@@ -55,13 +56,6 @@
                 "buffer_search::Deploy",
                 {
                     "focus": true
-                }
-            ],
-            "shift-alt-f": [
-                "buffer_search::Deploy",
-                {
-                    "focus": true,
-                    "regex": true
                 }
             ]
         }
