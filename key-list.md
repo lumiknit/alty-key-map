@@ -16,7 +16,7 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-d`: Delete
 - `A-D`: Delete a word
 - `A-f`: Find
-- `A-F`: Replace
+- `A-F`: Find in workspace
 - `A-g`: Go to line
 - `A-h`: Move left
 - `C-A-h`: Backspace
