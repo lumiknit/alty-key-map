@@ -50,5 +50,6 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-/`: Move to bottom
 - `A-?`: Move to top
 - `A-'`: Toggle bottom pane (commonly, integrated terminal)
+- `A-"`: Open terminal in editor
 - `A-\\`: Toggle left pane (commonly, file tree)
 - `A-|`: Toggle right pane (commonly, well..?)

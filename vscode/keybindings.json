@@ -199,6 +199,10 @@
         "command": "workbench.action.toggleZenMode"
     },
     {
+        "key": "shift+cmd+\\",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
         "key": "shift+alt+a",
         "command": "editor.action.selectAll"
     },
@@ -286,5 +290,9 @@
     {
         "key": "shift+alt+z",
         "command": "redo"
+    },
+    {
+        "key": "shift+alt+'",
+        "command": "workbench.action.createTerminalEditor"
     }
 ]
