@@ -9,7 +9,8 @@
             "shift-alt-p": "command_palette::Toggle",
             "alt-s": "workspace::Save",
             "shift-alt-s": "workspace::SaveAs",
-            "alt-q": "workspace::CloseAllItemsAndPanes",
+            "alt-q": "pane::CloseActiveItem",
+            "shift-alt-q": "workspace::CloseAllItemsAndPanes",
             "shift-alt-f": "workspace::NewSearch",
             "shift-alt-r": "workspace::NewSearch",
         }

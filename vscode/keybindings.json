@@ -140,7 +140,7 @@
         "command": "workbench.action.quickOpen"
     },
     {
-        "key": "alt+q",
+        "key": "shift+alt+q",
         "command": "workbench.action.closeAllEditors"
     },
     {
@@ -294,5 +294,9 @@
     {
         "key": "shift+alt+'",
         "command": "workbench.action.createTerminalEditor"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.closeActiveEditor"
     }
 ]

@@ -30,7 +30,8 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-o`: Move to the end of the line
 - `A-p`: Open file palette
 - `A-P`: Open command palette
-- `A-q`: Close all tabs and panes
+- `A-q`: Close current tab
+- `A-Q`: Close all tabs and panes
 - `A-r`: Replace
 - `A-R`: Replace in project
 - `A-s`: Save
