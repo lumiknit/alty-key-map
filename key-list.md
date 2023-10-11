@@ -12,6 +12,8 @@ Note: Move key with shift is considered as selection (or range) operation.
 
 - `A-a`: Select line
 - `A-A`: Select all
+- `A-b`: Multiple cursors for words
+- `A-B`: Multiple cursors to below
 - `A-c`: Copy (If not selected, copy whole line)
 - `A-d`: Delete
 - `A-D`: Delete a word
@@ -28,6 +30,9 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-o`: Move to the end of the line
 - `A-p`: Open file palette
 - `A-P`: Open command palette
+- `A-q`: Close all tabs and panes
+- `A-r`: Replace
+- `A-R`: Replace in project
 - `A-s`: Save
 - `A-S`: Save as
 - `A-u`: Move to the subword start
@@ -39,10 +44,11 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-Z`: Redo
 - `A-Backspace`: Erase a word
 - `A-,`: (Half) Page up
-- `A-<`: Move to the beginning of the file
+- `A-<`: Select (Half) page up
 - `A-.`: (Half) Page down
-- `A->`: Move to the end of the file
+- `A->`: Select (Half) page down
+- `A-/`: Move to bottom
+- `A-?`: Move to top
 - `A-'`: Toggle bottom pane (commonly, integrated terminal)
 - `A-\\`: Toggle left pane (commonly, file tree)
-- `A-|`: Zen mode / Toggle right pane
-- `A-0`: Close all tabs and panes
+- `A-|`: Toggle right pane (commonly, well..?)

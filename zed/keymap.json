@@ -8,8 +8,9 @@
             "shift-alt-p": "command_palette::Toggle",
             "alt-s": "workspace::Save",
             "shift-alt-s": "workspace::SaveAs",
-            "alt-0": "workspace::CloseAllItemsAndPanes",
-            "shift-alt-f": "workspace::NewSearch"
+            "alt-q": "workspace::CloseAllItemsAndPanes",
+            "shift-alt-f": "workspace::NewSearch",
+            "shift-alt-r": "workspace::NewSearch"
         }
     },
     {
@@ -17,6 +18,8 @@
         "bindings": {
             "alt-a": "editor::SelectLine",
             "shift-alt-a": "editor::SelectAll",
+            "alt-b": "editor::AddSelectionBelow",
+            "shift-alt-b": "editor::AddSelectionBelow",
             "alt-c": "editor::Copy",
             "alt-d": "editor::Delete",
             "shift-alt-d": "editor::DeleteToNextWordEnd",
@@ -43,9 +46,11 @@
             "alt-z": "editor::Undo",
             "shift-alt-z": "editor::Redo",
             "alt-,": "editor::HalfPageUp",
-            "alt-<": "editor::MoveToBeginning",
+            "alt-<": "editor::HalfPageUp",
             "alt-.": "editor::HalfPageDown",
-            "alt->": "editor::MoveToEnd",
+            "alt->": "editor::HalfPageDown",
+            "alt-/": "editor::MoveToEnd",
+            "alt-?": "editor::MoveToBeginning",
             "alt-;": "editor::ToggleComments"
         }
     },
@@ -56,6 +61,13 @@
                 "buffer_search::Deploy",
                 {
                     "focus": true
+                }
+            ],
+            "alt-r": [
+                "buffer_search::Deploy",
+                {
+                    "focus": true,
+                    "replace": true
                 }
             ]
         }
