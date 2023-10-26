@@ -29,3 +29,7 @@ See key-list.md
 ## Installation
 
 Open each editors and append the contents of keymap file.
+
+### Neovim
+
+See https://github.com/lumiknit/alty-keys.nvim
