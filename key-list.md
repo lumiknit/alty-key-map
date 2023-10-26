@@ -50,7 +50,8 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A->`: Select (Half) page down
 - `A-/`: Move to bottom
 - `A-?`: Move to top
+- `A-;`: Accept suggestion (autocompletion, copilot, etc.)
 - `A-'`: Toggle bottom pane (commonly, integrated terminal)
 - `A-"`: Open terminal in editor
 - `A-\\`: Toggle left pane (commonly, file tree)
-- `A-|`: Toggle right pane (commonly, well..?)
+- `A-|`: Zen mode or toggle right pane
