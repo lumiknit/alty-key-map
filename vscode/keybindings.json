@@ -346,5 +346,10 @@
         "key": "alt+;",
         "command": "workbench.action.terminal.acceptSelectedSuggestion",
         "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]
