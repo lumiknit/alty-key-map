@@ -1,0 +1,439 @@
+[
+	{
+		"keys": [
+			"alt+'"
+		],
+		"command": "show_panel"
+	},
+	{
+		"keys": [
+			"alt+,"
+		],
+		"command": "move",
+		"args": {
+			"by": "pages",
+			"forward": false
+		}
+	},
+	{
+		"keys": [
+			"alt+."
+		],
+		"command": "move",
+		"args": {
+			"by": "pages",
+			"forward": true
+		}
+	},
+	{
+		"keys": [
+			"alt+/"
+		],
+		"command": "move_to",
+		"args": {
+			"to": "eof"
+		}
+	},
+	{
+		"keys": [
+			"alt+a"
+		],
+		"command": "expand_selection",
+		"args": {
+			"to": "line"
+		}
+	},
+	{
+		"keys": [
+			"alt+b"
+		],
+		"command": "find_under_expand"
+	},
+	{
+		"keys": [
+			"alt+c"
+		],
+		"command": "copy"
+	},
+	{
+		"keys": [
+			"alt+d"
+		],
+		"command": "right_delete"
+	},
+	{
+		"keys": [
+			"alt+f"
+		],
+		"command": "show_panel",
+		"args": {
+			"panel": "find",
+			"reverse": false
+		}
+	},
+	{
+		"keys": [
+			"alt+g"
+		],
+		"command": "show_overlay",
+		"args": {
+			"overlay": "goto",
+			"text": ":"
+		}
+	},
+	{
+		"keys": [
+			"alt+h"
+		],
+		"command": "move",
+		"args": {
+			"by": "characters",
+			"forward": false
+		}
+	},
+	{
+		"keys": [
+			"alt+i"
+		],
+		"command": "move",
+		"args": {
+			"by": "subword",
+			"forward": true
+		}
+	},
+	{
+		"keys": [
+			"alt+j"
+		],
+		"command": "move",
+		"args": {
+			"by": "lines",
+			"forward": true
+		}
+	},
+	{
+		"keys": [
+			"alt+k"
+		],
+		"command": "move",
+		"args": {
+			"by": "lines",
+			"forward": false
+		}
+	},
+	{
+		"keys": [
+			"alt+l"
+		],
+		"command": "move",
+		"args": {
+			"by": "characters",
+			"forward": true
+		}
+	},
+	{
+		"keys": [
+			"alt+o"
+		],
+		"command": "move_to",
+		"args": {
+			"to": "eol"
+		}
+	},
+	{
+		"keys": [
+			"alt+p"
+		],
+		"command": "show_overlay",
+		"args": {
+			"overlay": "goto"
+		}
+	},
+	{
+		"keys": [
+			"alt+q"
+		],
+		"command": "close"
+	},
+	{
+		"keys": [
+			"alt+r"
+		],
+		"command": "show_panel",
+		"args": {
+			"panel": "replace",
+			"reverse": false
+		}
+	},
+	{
+		"keys": [
+			"alt+s"
+		],
+		"command": "save",
+		"args": {
+			"async": true
+		}
+	},
+	{
+		"keys": [
+			"alt+u"
+		],
+		"command": "move",
+		"args": {
+			"by": "subwords",
+			"forward": false
+		}
+	},
+	{
+		"keys": [
+			"alt+v"
+		],
+		"command": "paste"
+	},
+	{
+		"keys": [
+			"alt+x"
+		],
+		"command": "cut"
+	},
+	{
+		"keys": [
+			"alt+y"
+		],
+		"command": "move_to",
+		"args": {
+			"to": "bol"
+		}
+	},
+	{
+		"keys": [
+			"alt+z"
+		],
+		"command": "undo"
+	},
+	{
+		"keys": [
+			"alt+backspace"
+		],
+		"command": "delete_word",
+		"args": {
+			"forward": false
+		}
+	},
+	{
+		"keys": [
+			"alt+;"
+		],
+		"command": "auto_complete",
+		"args": {
+			"mini": true,
+			"commit_single": true
+		},
+		"context": [
+			{
+				"key": "auto_complete_visible",
+				"operand": false
+			},
+		]
+	},
+	{
+		"keys": [
+			"alt+\\"
+		],
+		"command": "toggle_side_bar"
+	},
+	{
+		"keys": [
+			"shift+alt+,"
+		],
+		"command": "move",
+		"args": {
+			"by": "pages",
+			"forward": false,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+."
+		],
+		"command": "move",
+		"args": {
+			"by": "pages",
+			"forward": true,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+a"
+		],
+		"command": "select_all"
+	},
+	{
+		"keys": [
+			"shift+alt+b"
+		],
+		"command": "find_under_prev"
+	},
+	{
+		"keys": [
+			"shift+alt+d"
+		],
+		"command": "delete_word",
+		"args": {
+			"forward": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+f"
+		],
+		"command": "show_panel",
+		"args": {
+			"panel": "find_in_files"
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+h"
+		],
+		"command": "move",
+		"args": {
+			"by": "characters",
+			"forward": false,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+i"
+		],
+		"command": "move",
+		"args": {
+			"by": "subword",
+			"forward": true,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+j"
+		],
+		"command": "move",
+		"args": {
+			"by": "lines",
+			"forward": true,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+k"
+		],
+		"command": "move",
+		"args": {
+			"by": "lines",
+			"forward": false,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+l"
+		],
+		"command": "move",
+		"args": {
+			"by": "characters",
+			"forward": true,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+o"
+		],
+		"command": "move_to",
+		"args": {
+			"to": "eol",
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+p"
+		],
+		"command": "show_overlay",
+		"args": {
+			"overlay": "command_palette"
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+q"
+		],
+		"command": "close_all_files"
+	},
+	{
+		"keys": [
+			"shift+alt+r"
+		],
+		"command": "show_panel",
+		"args": {
+			"panel": "find_in_files"
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+s"
+		],
+		"command": "prompt_save_as"
+	},
+	{
+		"keys": [
+			"alt+u"
+		],
+		"command": "move",
+		"args": {
+			"by": "subwords",
+			"forward": false,
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+x"
+		],
+		"command": "chain",
+		"args": {
+			"commands": [
+				{
+					"command": "move_to",
+					"args": {
+						"to": "eol",
+						"extend": true
+					}
+				},
+				{
+					"command": "cut"
+				}
+			]
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+y"
+		],
+		"command": "move_to",
+		"args": {
+			"to": "bol",
+			"extend": true
+		}
+	},
+	{
+		"keys": [
+			"shift+alt+z"
+		],
+		"command": "redo"
+	}
+]
