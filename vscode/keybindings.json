@@ -135,12 +135,20 @@
         "when": "acceptSuggestionOnEnter && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
     },
     {
+        "key": "alt+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
         "key": "alt+o",
         "command": "cursorEnd",
         "when": "textInputFocus"
     },
     {
         "key": "alt+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "shift shift",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -258,6 +266,10 @@
         "key": "shift+alt+l",
         "command": "cursorRightSelect",
         "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "workbench.action.newWindow"
     },
     {
         "key": "shift+alt+o",
