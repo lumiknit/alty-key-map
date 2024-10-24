@@ -1,10 +1,15 @@
 [
 	{
 		"bindings": {
+			"shift shift": "file_finder::Toggle",
 			"alt-\\": "workspace::ToggleLeftDock",
-			"alt-|": "workspace::ToggleRightDock",
+			"shift-alt-\\": "workspace::ToggleRightDock",
 			"alt-'": "workspace::ToggleBottomDock",
 			"alt-\"": "workspace::NewCenterTerminal",
+			"alt-e": "editor::OpenFile",
+			"shift-alt-e": "workspace::Open",
+			"alt-n": "workspace::NewFile",
+			"shift-alt-n": "workspace::NewWindow",
 			"alt-p": "file_finder::Toggle",
 			"shift-alt-p": "command_palette::Toggle",
 			"alt-s": "workspace::Save",
@@ -18,7 +23,6 @@
 	{
 		"context": "Editor",
 		"bindings": {
-			"shift shift": "file_finder::Toggle",
 			"alt-a": "editor::SelectLine",
 			"shift-alt-a": "editor::SelectAll",
 			"alt-b": "editor::AddSelectionBelow",
@@ -26,8 +30,7 @@
 			"alt-c": "editor::Copy",
 			"alt-d": "editor::Delete",
 			"shift-alt-d": "editor::DeleteToNextWordEnd",
-			"alt-e": "editor::OpenFile",
-			"shift-alt-e": "workspace::Open",
+			"alt-g": "go_to_line::Toggle",
 			"alt-h": "editor::MoveLeft",
 			"shift-alt-h": "editor::SelectLeft",
 			"alt-j": "editor::MoveDown",
@@ -37,7 +40,6 @@
 			"shift-alt-k": "editor::SelectUp",
 			"alt-l": "editor::MoveRight",
 			"shift-alt-l": "editor::SelectRight",
-			"alt-n": "workspace::NewFile",
 			"alt-o": "editor::MoveToEndOfLine",
 			"shift-alt-o": "editor::SelectToEndOfLine",
 			"alt-u": "editor::MoveToPreviousSubwordStart",
