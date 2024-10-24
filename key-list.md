@@ -17,6 +17,8 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-c`: Copy (If not selected, copy whole line)
 - `A-d`: Delete
 - `A-D`: Delete a word
+- `A-e`: Open file (from 'edit')
+- `A-E`: Open workspace (or directory)
 - `A-f`: Find
 - `A-F`: Find in workspace
 - `A-g`: Go to line
@@ -27,6 +29,8 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `C-A-j`: Join lines
 - `A-k`: Move up
 - `A-l`: Move right
+- `A-n`: New file
+- `A-N`: New window
 - `A-o`: Move to the end of the line
 - `A-p`: Open file palette
 - `A-P`: Open command palette
