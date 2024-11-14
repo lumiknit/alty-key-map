@@ -208,11 +208,11 @@
     },
     {
         "key": "shift+alt+\\",
-        "command": "workbench.action.toggleZenMode"
+        "command": "workbench.action.toggleAuxiliaryBar"
     },
     {
         "key": "shift+cmd+\\",
-        "command": "workbench.action.toggleZenMode"
+        "command": "workbench.action.toggleAuxiliaryBar"
     },
     {
         "key": "shift+alt+a",
