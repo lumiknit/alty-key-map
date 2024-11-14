@@ -27,6 +27,10 @@
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
+        "key": "cmd+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
         "key": "alt+a",
         "command": "runCommands",
         "args": {
@@ -135,10 +139,6 @@
         "when": "acceptSuggestionOnEnter && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
     },
     {
-        "key": "alt+n",
-        "command": "workbench.action.files.newUntitledFile"
-    },
-    {
         "key": "alt+o",
         "command": "cursorEnd",
         "when": "textInputFocus"
@@ -150,7 +150,7 @@
     {
         "key": "shift shift",
         "command": "workbench.action.quickOpen"
-    },
+    }
     {
         "key": "shift+alt+q",
         "command": "workbench.action.closeAllEditors"
@@ -268,10 +268,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "shift+alt+n",
-        "command": "workbench.action.newWindow"
-    },
-    {
         "key": "shift+alt+o",
         "command": "cursorEndSelect",
         "when": "textInputFocus"
@@ -358,10 +354,5 @@
         "key": "alt+;",
         "command": "workbench.action.terminal.acceptSelectedSuggestion",
         "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
-    },
-    {
-        "key": "alt+backspace",
-        "command": "deleteWordLeft",
-        "when": "textInputFocus && !editorReadonly"
     }
 ]
