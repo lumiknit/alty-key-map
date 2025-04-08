@@ -1,15 +1,14 @@
 [
 	{
 		"bindings": {
-			"shift shift": "file_finder::Toggle",
 			"alt-\\": "workspace::ToggleLeftDock",
-			"shift-alt-\\": "workspace::ToggleRightDock",
+			"super-\\": "workspace::ToggleLeftDock",
+			"alt-|": "workspace::ToggleRightDock",
+			"super-|": "workspace::ToggleRightDock",
 			"alt-'": "workspace::ToggleBottomDock",
+			"super-'": "workspace::ToggleBottomDock",
 			"alt-\"": "workspace::NewCenterTerminal",
-			"alt-e": "editor::OpenFile",
-			"shift-alt-e": "workspace::Open",
-			"alt-n": "workspace::NewFile",
-			"shift-alt-n": "workspace::NewWindow",
+			"super-\"": "workspace::NewCenterTerminal",
 			"alt-p": "file_finder::Toggle",
 			"shift-alt-p": "command_palette::Toggle",
 			"alt-s": "workspace::Save",
@@ -23,6 +22,7 @@
 	{
 		"context": "Editor",
 		"bindings": {
+			"shift shift": "file_finder::Toggle",
 			"alt-a": "editor::SelectLine",
 			"shift-alt-a": "editor::SelectAll",
 			"alt-b": "editor::AddSelectionBelow",
@@ -30,16 +30,18 @@
 			"alt-c": "editor::Copy",
 			"alt-d": "editor::Delete",
 			"shift-alt-d": "editor::DeleteToNextWordEnd",
-			"alt-g": "go_to_line::Toggle",
+			"alt-e": "editor::OpenSelectedFilename",
+			"shift-alt-e": "workspace::Open",
 			"alt-h": "editor::MoveLeft",
 			"shift-alt-h": "editor::SelectLeft",
-			"alt-j": "editor::MoveDown",
-			"shift-alt-j": "editor::SelectDown",
+			"alt-j": ["editor::MoveDownByLines", { "lines": 1 }],
+			"shift-alt-j": ["editor::SelectDownByLines", { "lines": 1 }],
 			"ctrl-alt-j": "editor::JoinLines",
-			"alt-k": "editor::MoveUp",
-			"shift-alt-k": "editor::SelectUp",
+			"alt-k": ["editor::MoveUpByLines", { "lines": 1 }],
+			"shift-alt-k": ["editor::SelectUpByLines", { "lines": 1 }],
 			"alt-l": "editor::MoveRight",
 			"shift-alt-l": "editor::SelectRight",
+			"alt-n": "workspace::NewFile",
 			"alt-o": "editor::MoveToEndOfLine",
 			"shift-alt-o": "editor::SelectToEndOfLine",
 			"alt-u": "editor::MoveToPreviousSubwordStart",
@@ -49,8 +51,18 @@
 			"alt-v": "editor::Paste",
 			"alt-x": "editor::Cut",
 			"shift-alt-x": "editor::CutToEndOfLine",
-			"alt-y": "editor::MoveToBeginningOfLine",
-			"shift-alt-y": "editor::SelectToBeginningOfLine",
+			"alt-y": [
+				"editor::MoveToBeginningOfLine",
+				{
+					"stop_at_indent": true
+				}
+			],
+			"shift-alt-y": [
+				"editor::SelectToBeginningOfLine",
+				{
+					"stop_at_indent": true
+				}
+			],
 			"alt-z": "editor::Undo",
 			"shift-alt-z": "editor::Redo",
 			"alt-,": "editor::HalfPageUp",
@@ -75,7 +87,7 @@
 				"buffer_search::Deploy",
 				{
 					"focus": true,
-					"replace": true
+					"replace_enabled": true
 				}
 			]
 		}
@@ -95,7 +107,7 @@
 	{
 		"context": "Editor && (showing_code_actions || showing_completions)",
 		"bindings": {
-			"alt-k": "editor::ContextMenuPrev",
+			"alt-k": "editor::ContextMenuPrevious",
 			"alt-j": "editor::ContextMenuNext",
 			"alt-y": "editor::ContextMenuFirst",
 			"alt-,": "editor::ContextMenuFirst",
@@ -111,7 +123,7 @@
 		"context": "BufferSearchBar",
 		"bindings": {
 			"alt-f": "search::SelectNextMatch",
-			"shift-alt-f": "search::SelectPrevMatch"
+			"shift-alt-f": "search::SelectPreviousMatch"
 		}
 	}
 ]
