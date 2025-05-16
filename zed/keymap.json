@@ -32,6 +32,7 @@
 			"shift-alt-d": "editor::DeleteToNextWordEnd",
 			"alt-e": "editor::OpenSelectedFilename",
 			"shift-alt-e": "workspace::Open",
+			"alt-g": "go_to_line::Toggle",
 			"alt-h": "editor::MoveLeft",
 			"shift-alt-h": "editor::SelectLeft",
 			"alt-j": ["editor::MoveDownByLines", { "lines": 1 }],
