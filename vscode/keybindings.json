@@ -357,7 +357,7 @@
     },
     {
         "command": "editor.action.smartSelect.expand",
-        "key": "alt+[",
+        "key": "alt+w",
         "when": "textInputFocus"
     },
     {
@@ -377,6 +377,17 @@
     },
     {
         "command": "workbench.action.openRecent",
+        "key": "ctrl+alt+p"
+    },
+    {
+        "args": {
+            "commands": [
+                "workbench.action.closeSidebar",
+                "workbench.action.closeAuxiliaryBar",
+                "workbench.action.closePanel"
+            ]
+        },
+        "command": "runCommands",
         "key": "ctrl+alt+\\"
     }
 ]
