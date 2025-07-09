@@ -4,6 +4,10 @@
     <keyboard-shortcut first-keystroke="meta insert" />
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
     <keyboard-shortcut first-keystroke="shift alt a" />
@@ -11,6 +15,14 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+    <keyboard-shortcut first-keystroke="alt quote" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift alt q" />
@@ -22,6 +34,10 @@
   <action id="CodeInspection.OnEditor" />
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -51,7 +67,7 @@
   <action id="EditorIncreaseFontSizeGlobal" />
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
-    <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
@@ -135,6 +151,10 @@
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt k" />
@@ -163,6 +183,8 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
+  <action id="NextInlineCompletionSuggestionAction" />
+  <action id="PrevInlineCompletionSuggestionAction" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="alt r" />
@@ -182,12 +204,22 @@
     <keyboard-shortcut first-keystroke="shift meta s" />
     <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="SelectVirtualTemplateElement" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="sql.SelectInDatabaseView" />
   <action id="에디터 Copy">
     <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="에디터 Redo">
+    <keyboard-shortcut first-keystroke="shift alt z" />
   </action>
   <action id="에디터 SelectAll">
     <keyboard-shortcut first-keystroke="shift alt a" />
