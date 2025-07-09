@@ -5,6 +5,7 @@
 			"super-\\": "workspace::ToggleLeftDock",
 			"alt-|": "workspace::ToggleRightDock",
 			"super-|": "workspace::ToggleRightDock",
+			"ctrl-alt-\\": ["projects::OpenRecent", { "create_new_window": true }],
 			"alt-'": "workspace::ToggleBottomDock",
 			"super-'": "workspace::ToggleBottomDock",
 			"alt-\"": "workspace::NewCenterTerminal",
@@ -26,7 +27,7 @@
 			"alt-a": "editor::SelectLine",
 			"shift-alt-a": "editor::SelectAll",
 			"alt-b": "editor::AddSelectionBelow",
-			"shift-alt-b": "editor::AddSelectionBelow",
+			"shift-alt-b": "editor::SelectNext",
 			"alt-c": "editor::Copy",
 			"alt-d": "editor::Delete",
 			"shift-alt-d": "editor::DeleteToNextWordEnd",
@@ -42,6 +43,7 @@
 			"shift-alt-k": ["editor::SelectUpByLines", { "lines": 1 }],
 			"alt-l": "editor::MoveRight",
 			"shift-alt-l": "editor::SelectRight",
+			"alt-m": "editor::JoinLines",
 			"alt-n": "workspace::NewFile",
 			"alt-o": "editor::MoveToEndOfLine",
 			"shift-alt-o": "editor::SelectToEndOfLine",
@@ -66,13 +68,16 @@
 			],
 			"alt-z": "editor::Undo",
 			"shift-alt-z": "editor::Redo",
+			"alt-[": "editor::SelectLargerSyntaxNode",
+			"alt-]": "editor::MoveToEnclosingBracket",
 			"alt-,": "editor::HalfPageUp",
 			"alt-<": "editor::HalfPageUp",
 			"alt-.": "editor::HalfPageDown",
 			"alt->": "editor::HalfPageDown",
 			"alt-/": "editor::MoveToEnd",
 			"alt-?": "editor::MoveToBeginning",
-			"alt-;": "editor::Tab"
+			"alt-;": "editor::Tab",
+			"cmd-i": "assistant::InlineAssist"
 		}
 	},
 	{
