@@ -153,7 +153,7 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta w" />
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -172,6 +172,36 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="GoToLastTab">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="GoToTab3">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="GoToTab4">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="GoToTab5">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="GoToTab6">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="GoToTab7">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="GoToTab8">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="GoToTab9">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta g" />
     <keyboard-shortcut first-keystroke="alt g" />
@@ -184,7 +214,15 @@
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="NextInlineCompletionSuggestionAction" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+  </action>
   <action id="PrevInlineCompletionSuggestionAction" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt minus" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="alt r" />
@@ -212,6 +250,9 @@
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="SelectVirtualTemplateElement" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+  </action>
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="sql.SelectInDatabaseView" />
