@@ -180,6 +180,7 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-R`: Replace in project
 - `A-s`: Save
 - `A-S`: Save as
+- `C-A-s`: Save and quit
 - `A-u`: Move to the subword start
 - `A-v`: Paste
 - `A-w`: Expand selection (e.g. Smart expand)
