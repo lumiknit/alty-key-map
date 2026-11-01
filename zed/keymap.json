@@ -19,13 +19,12 @@
 			"alt-q": "pane::CloseActiveItem",
 			"shift-alt-q": "workspace::CloseAllItemsAndPanes",
 			"shift-alt-f": "workspace::NewSearch",
-			"shift-alt-r": "workspace::NewSearch"
-		}
+			"shift-alt-r": "workspace::NewSearch",
+		},
 	},
 	{
 		"context": "Editor",
 		"bindings": {
-			"shift shift": "file_finder::Toggle",
 			"alt-a": "editor::SelectLine",
 			"shift-alt-a": "editor::SelectAll",
 			"alt-b": "editor::SelectNext",
@@ -54,19 +53,20 @@
 			"shift-alt-i": "editor::SelectToNextSubwordEnd",
 			"alt-v": "editor::Paste",
 			"alt-w": "editor::SelectLargerSyntaxNode",
+			"shift-alt-w": "editor::SelectSmallerSyntaxNode",
 			"alt-x": "editor::Cut",
 			"shift-alt-x": "editor::CutToEndOfLine",
 			"alt-y": [
 				"editor::MoveToBeginningOfLine",
 				{
-					"stop_at_indent": true
-				}
+					"stop_at_indent": true,
+				},
 			],
 			"shift-alt-y": [
 				"editor::SelectToBeginningOfLine",
 				{
-					"stop_at_indent": true
-				}
+					"stop_at_indent": true,
+				},
 			],
 			"alt-z": "editor::Undo",
 			"shift-alt-z": "editor::Redo",
@@ -78,8 +78,8 @@
 			"alt-/": "editor::MoveToEnd",
 			"alt-?": "editor::MoveToBeginning",
 			"alt-;": "editor::Tab",
-			"cmd-i": "assistant::InlineAssist"
-		}
+			"cmd-i": "assistant::InlineAssist",
+		},
 	},
 	{
 		"context": "Editor && mode == full",
@@ -87,29 +87,29 @@
 			"alt-f": [
 				"buffer_search::Deploy",
 				{
-					"focus": true
-				}
+					"focus": true,
+				},
 			],
 			"alt-r": [
 				"buffer_search::Deploy",
 				{
 					"focus": true,
-					"replace_enabled": true
-				}
-			]
-		}
+					"replace_enabled": true,
+				},
+			],
+		},
 	},
 	{
 		"context": "Editor && showing_completions",
 		"bindings": {
-			"alt-;": "editor::ConfirmCompletion"
-		}
+			"alt-;": "editor::ConfirmCompletion",
+		},
 	},
 	{
 		"context": "Editor && showing_code_actions",
 		"bindings": {
-			"alt-;": "editor::ConfirmCodeAction"
-		}
+			"alt-;": "editor::ConfirmCodeAction",
+		},
 	},
 	{
 		"context": "Editor && (showing_code_actions || showing_completions)",
@@ -123,15 +123,15 @@
 			"alt-.": "editor::ContextMenuLast",
 			"alt->": "editor::ContextMenuLast",
 			"alt-l": "editor::ConfirmCompletion",
-			"alt-h": "editor::Cancel"
-		}
+			"alt-h": "editor::Cancel",
+		},
 	},
 	{
 		"context": "BufferSearchBar",
 		"bindings": {
 			"alt-f": "search::SelectNextMatch",
-			"shift-alt-f": "search::SelectPreviousMatch"
-		}
+			"shift-alt-f": "search::SelectPreviousMatch",
+		},
 	},
 	{
 		"context": "Pane",
@@ -149,7 +149,7 @@
 			"alt-0": "pane::ActivateLastItem",
 			"alt--": "pane::GoBack",
 			"alt-_": "pane::GoForward",
-			"cmd-shift-f": "pane::DeploySearch"
-		}
-	}
+			"cmd-shift-f": "pane::DeploySearch",
+		},
+	},
 ]
