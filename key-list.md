@@ -184,6 +184,7 @@ Note: Move key with shift is considered as selection (or range) operation.
 - `A-u`: Move to the subword start
 - `A-v`: Paste
 - `A-w`: Expand selection (e.g. Smart expand)
+- `A-W`: Shrink selection (e.g. Smart expand)
 - `A-x`: Cut (If not selected, cut whole line)
 - `A-X`: Cut to the end of line
 - `A-y`: Move to the beginning of the line (or the first non-whitespace character)
