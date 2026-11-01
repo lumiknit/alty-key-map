@@ -62,7 +62,7 @@
 	<tr>
 		<td class="unused" colspan="2"><b>Tab</b><br /></td>
 		<td class="tab"><b>Q</b><br />Close tab<br /><i>Close all tabs</i></td>
-		<td><b>W</b><br />Expand Selection</td>
+		<td><b>W</b><br />Expand Selection<br /><i>Shrink Selection</i></td>
 		<td class="dialog"><b>E</b><br />Open file<br /><i>Open workspace</i></td>
 		<td class="dialog"><b>R</b><br />Replace<br /><i>Replace in project</i></td>
 		<td><b>T</b><br /></td>
